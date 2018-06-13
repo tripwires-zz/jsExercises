@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rows of * 2</title>
+</head>
+
+<body>
+    <script>
+        var stars = "";
+        var stars2 = "*"
+
+        for (var i = 0; i < 5; i++) {
+            stars += "*";
+            document.write(stars + "<br>");
+        }
+        // start off with 4 stars and each time we take one off
+        for (var i = 4; i > 0; i--) { 
+            // we repeat * x amount of times, taking one off with each iteration
+            document.write(stars2.repeat(i) + "<br>");
+
+        }
+    </script>
+
+</body>
+
+</html>

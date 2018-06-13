@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Here you got them f numbers brah!</title>
+</head>
+<body>
+<script>
+    //fib nrs = each number is the sum of the 2 preceding numbers f.e. 1,1,2,3,5,8...
+    //we need 2 nrs to start off with
+    var a = 1;
+    var b = 1;
+    var total = a + b; //total of the first 2 nrs => 1+1=2
+    document.write(a + "<br>"+ b + "<br>" + total + "<br>");
+
+ //a+b=c => 2+3=5 3+5=8 a=b b=total => a+b=total
+
+    
+    for (var i=2; i<50; i++){
+        total = a + b;
+        a = b;
+        b = total;
+        newTot = a + b;
+        document.write(newTot + "<br>"); 
+    }
+ 
+   
+</script>
+</body>
+</html>
+
+
+

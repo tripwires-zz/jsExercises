@@ -1,0 +1,58 @@
+h1 {
+    font-size: 600%;
+    margin:10px;
+    text-shadow: 3px 3px 4px #ecbdbd;
+    Color: rgb(59, 58, 58);
+}
+#Display {
+    font-size: 500%;
+    align: center;
+    text-align: center;
+    margin: 0px;
+    border: 3px solid rgb(114, 113, 113);
+    color: #c58585; 
+    text-shadow: 2px 2px 4px #000000;
+    width: 744px;
+}
+
+
+body {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+
+.btnsBlack {
+   background-color: #3d3c3c;
+   font-size: 200%;
+   text-align: center;
+   padding: 40px;
+   margin: 3px;
+   border: 3px solid rgb(114, 113, 113);
+   color: white;
+   text-shadow: 2px 2px 4px #000000;
+   width: 150px;
+}
+
+.btnsRed {
+    background-color: #c58585;
+    font-size: 200%;
+    text-align: center;
+    padding: 40px;
+    margin: 3px;
+    border: 3px solid rgb(114, 113, 113);
+    color: white;
+    text-shadow: 2px 2px 4px #0a0303;
+    width: 150px;
+}
+
+#reset {
+    background-color: #626060;
+    font-size: 200%;
+    text-align: center;
+    padding: 40px;
+    margin: 3px;
+    border: 3px solid rgb(114, 113, 113);
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    width: 631px;
+}
